@@ -10,8 +10,8 @@ import '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css';
 // @ts-ignore
 // eslint-disable-next-line import/no-webpack-loader-syntax, import/no-unresolved
 /* eslint import/no-webpack-loader-syntax: off */
-// mapboxgl.workerClass =
-//   require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
+mapboxgl.workerClass =
+  require('worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker').default;
 mapboxgl.accessToken =
   'pk.eyJ1Ijoic3NpbjAwNjkiLCJhIjoiY2t0bjRpejBjMGZpZzJxbjU3azRsY3V2aSJ9.d_2VxfEhFX2ff-TnQaQY5g';
 class Map extends React.Component {
