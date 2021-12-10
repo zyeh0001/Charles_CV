@@ -9,6 +9,9 @@ import CustomButton from '../Button/CustomButton';
 import './Header.css';
 
 const Header = withRouter((props) => {
+  const Hire_me = () => {
+    window.location.href = `mailto:${resumeData.email}`;
+  };
   const pathName = props.location.pathname;
   console.log(pathName);
   return (
@@ -60,7 +63,11 @@ const Header = withRouter((props) => {
               </a>
             );
           })}
-          <CustomButton text={'Hire Me'} icon={<TelegramIcon />} />
+          <CustomButton
+            text={'Hire Me'}
+            onClick={Hire_me}
+            icon={<TelegramIcon />}
+          />
         </div>
       </Navbar.Collapse>
     </Navbar>

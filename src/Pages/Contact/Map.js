@@ -1,6 +1,7 @@
 import React from 'react';
 import mapboxgl from 'mapbox-gl';
 import 'mapbox-gl/dist/mapbox-gl.css';
+import { Grid } from '@material-ui/core';
 import './Map.css';
 import MapboxDirections from '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions';
 import '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css';
@@ -72,9 +73,18 @@ class Map extends React.Component {
     map.on('load', () => {
       geolocate.trigger();
     });
+    map.on('render', () => {
+      map.resize();
+    });
   }
   render() {
-    return <div ref={(el) => (this.mapWrapper = el)} className='mapWrapper' />;
+    return (
+      <Grid container className='m-4'>
+        <Grid item xs={12}>
+          <div ref={(el) => (this.mapWrapper = el)} className='mapWrapper' />
+        </Grid>
+      </Grid>
+    );
   }
 }
 export default Map;

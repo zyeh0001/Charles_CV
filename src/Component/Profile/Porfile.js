@@ -71,7 +71,7 @@ const Porfile = () => {
 
         <div className='button_container'>
           <CustomButton
-            file={saveFile}
+            onClick={saveFile}
             text='Download Cv'
             icon={<DownloadIcon />}
           ></CustomButton>

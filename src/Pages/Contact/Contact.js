@@ -1,9 +1,9 @@
 import React from 'react';
-import { Grid, TextField, Typography } from '@material-ui/core';
-import CustomButton from '../../Component/Button/CustomButton';
+import { Grid, Typography } from '@material-ui/core';
 import resumeData from '../../utils/resumeData';
 import './Contact.css';
 import Map from './Map';
+import ContactForm from '../../Component/ContactFrom/ContactForm';
 
 function Contact() {
   return (
@@ -17,38 +17,7 @@ function Contact() {
               <h6 className='section_title_text'>Contact Me</h6>
             </Grid>
           </Grid>
-          <Grid container>
-            <Grid item xs={12} lg={6}>
-              <TextField
-                fullWidth
-                id='outlined-required'
-                label='Name'
-                name='name'
-              />
-            </Grid>
-            <Grid item xs={12} lg={6}>
-              <TextField
-                fullWidth
-                id='outlined-required'
-                name='email'
-                label='Email'
-              ></TextField>
-            </Grid>
-            <Grid item xs={12}>
-              <TextField
-                fullWidth
-                id='outlined-required'
-                name='message'
-                label='Message'
-                multiline
-                rows={4}
-              ></TextField>
-            </Grid>
-          </Grid>
-
-          <Grid item xs={12} className='pt_30'>
-            <CustomButton text='Submit'></CustomButton>
-          </Grid>
+          <ContactForm />
         </Grid>
       </Grid>
       {/* Contact info */}
@@ -89,7 +58,11 @@ function Contact() {
           <Grid container className='contact_info_social_container'>
             {Object.keys(resumeData.socials).map((social) => {
               return (
-                <Grid item className='contact_info_social_icon'>
+                <Grid
+                  item
+                  className='contact_info_social_icon'
+                  key={resumeData.socials[social].link}
+                >
                   <a
                     href={resumeData.socials[social].link}
                     target='_blank'
@@ -103,9 +76,7 @@ function Contact() {
           </Grid>
         </Grid>
       </Grid>
-      <Grid item xs={12}>
-        <Map />
-      </Grid>
+      <Map />
     </Grid>
   );
 }

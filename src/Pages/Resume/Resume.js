@@ -42,7 +42,7 @@ function Resume() {
                   return (
                     <TimelineItem>
                       <CustomTimelineSep />
-                      <TimelineContent>
+                      <TimelineContent key={experience.title}>
                         <Typography className='timeline_title'>
                           {experience.title}
                         </Typography>
