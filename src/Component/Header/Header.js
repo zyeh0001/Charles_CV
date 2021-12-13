@@ -64,7 +64,7 @@ const Header = withRouter((props) => {
             );
           })}
           <CustomButton
-            text={'Hire Me'}
+            text={'Contact Me'}
             onClick={Hire_me}
             icon={<TelegramIcon />}
           />

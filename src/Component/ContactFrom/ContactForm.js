@@ -62,8 +62,9 @@ function ContactForm() {
             <Form.Control as='textarea' rows={3} name='message' />
           </Form.Group>
           <Grid container spacing={2}>
-            <CustomButton text='Submit' type='submit'></CustomButton>
-
+            <Grid item>
+              <CustomButton text='Submit' type='submit'></CustomButton>
+            </Grid>
             <Grid item>{result ? <Result /> : null}</Grid>
           </Grid>
         </Form>

@@ -8,7 +8,6 @@ import ContactForm from '../../Component/ContactFrom/ContactForm';
 function Contact() {
   return (
     <Grid container spacing={6} className='section pt_45'>
-      {/* Contact form */}
       <Grid item xs={12} lg={7}>
         <Grid container>
           <Grid item xs={12} lg={7}>
@@ -17,6 +16,7 @@ function Contact() {
               <h6 className='section_title_text'>Contact Me</h6>
             </Grid>
           </Grid>
+          {/* Contact form */}
           <ContactForm />
         </Grid>
       </Grid>

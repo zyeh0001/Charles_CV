@@ -79,7 +79,7 @@ class Map extends React.Component {
   }
   render() {
     return (
-      <Grid container className='m-4'>
+      <Grid container className='mapContainer'>
         <Grid item xs={12}>
           <div ref={(el) => (this.mapWrapper = el)} className='mapWrapper' />
         </Grid>
