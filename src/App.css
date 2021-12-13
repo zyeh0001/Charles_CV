@@ -1,5 +1,6 @@
 :root {
-  --theme-color: #ffc500;
+  /* --theme-color: #ffc500; */
+  --theme-color: #43aa8b;
 }
 .top_60 {
   margin-top: 60px !important;

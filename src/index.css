@@ -5,9 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #fafafa;
+  /* background: #fafafa; */
+  background: #e3dcd2;
   overflow-x: hidden;
-  background: url('./assets/images/bg.png');
+  /* background: url('./assets/images/bg.png'); */
+  background: url('./assets/images/blue_bg.jpg');
 }
 
 code {
