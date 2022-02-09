@@ -41,7 +41,7 @@ function ContactForm() {
   return (
     <Grid container>
       <Grid item xs={12}>
-        <Form onSubmit={sendEmail} ref={form}>
+        <Form onSubmit={sendEmail} >
           <Row xs={1} md={2} className='mt-3'>
             <Form.Group className='mb-3' controlId='exampleForm.ControlInput1'>
               <Form.Label>Name:</Form.Label>

@@ -33,6 +33,13 @@ import learningbar1 from '../assets/learningBar_image/1.png';
 import learningbar2 from '../assets/learningBar_image/2.png';
 import tagtag1 from '../assets/tagtag_image/1.png';
 import tagtag2 from '../assets/tagtag_image/2.png';
+import budget1 from '../assets/BudgetApp/budget1.png';
+import budget2 from '../assets/BudgetApp/budget2.png';
+import budget3 from '../assets/BudgetApp/budget3.png';
+import confusion1 from '../assets/confusion/confusion1.png';
+import confusion2 from '../assets/confusion/confusion2.png';
+import confusion3 from '../assets/confusion/confusion3.png';
+import confusion4 from '../assets/confusion/confusion4.png';
 
 const resumeData = {
   name: 'Charles Yeh',
@@ -180,6 +187,48 @@ const resumeData = {
         {
           type: 'source',
           link: 'https://github.com/zyeh0001/Skindicator-x',
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: 'React',
+      images: [confusion1, confusion2, confusion3, confusion4],
+      title: 'Coursera - Confusion App',
+      description:
+        'This project is the demonstration of the Front End deveopment Course in Cousera. ',
+      caption:
+        'A restaurant webste developed using React, Redux and Json server.',
+      links: [
+        // {
+        //   type: 'project',
+        //   link: 'https://www.skindicator.ga/',
+        //   icon: <WebIcon />,
+        // },
+        {
+          type: 'source',
+          link: 'https://github.com/zyeh0001/cosera_confusion_app',
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: 'React',
+      images: [budget1, budget2, budget3],
+      title: 'Budget App',
+      description:
+        'The project is a simple budget management application using React, user can add different budget categories and add expenses as well as tracking the expense log.',
+      caption:
+        'A budget management application developed using React with several custom React hooks',
+      links: [
+        {
+          type: 'project',
+          link: 'https://zyeh0001.github.io/-Budget_app/',
+          icon: <WebIcon />,
+        },
+        {
+          type: 'source',
+          link: 'https://github.com/zyeh0001/-Budget_app',
           icon: <GitHubIcon />,
         },
       ],

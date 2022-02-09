@@ -33,23 +33,6 @@ class Map extends React.Component {
       zoom: this.state.zoom,
     });
 
-    // data.forEach((location) => {
-    //   const el = document.createElement('div');
-    //   el.className = 'marker';
-    //   // console.log(location);
-    //   new mapboxgl.Marker(el)
-    //     .setLngLat(location.geometry.coordinates)
-    //     .setPopup(
-    //       new mapboxgl.Popup({ offset: 30 }).setHTML(
-    //         '<h4>' +
-    //           location.properties.Formal_Name +
-    //           '</h4>' +
-    //           location.properties.Full_Address
-    //       )
-    //     )
-    //     .addTo(map);
-    // });
-
     const directions = new MapboxDirections({
       accessToken: mapboxgl.accessToken,
       unit: 'metric',
