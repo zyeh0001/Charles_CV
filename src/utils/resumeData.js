@@ -159,8 +159,10 @@ const resumeData = {
       title: 'Web-Dev',
       description: [
         'ReactJS',
+        'Express',
         'JavaScript',
         'Bootstrap',
+        'Tailwind CSS',
         'Material UI',
         'AWS services',
       ],
@@ -171,7 +173,7 @@ const resumeData = {
     },
     {
       title: 'Sourse Control',
-      description: ['GIT', 'Agile/Scrum'],
+      description: ['Git', 'Agile/Scrum'],
     },
     {
       title: 'Visual',
