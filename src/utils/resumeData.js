@@ -40,6 +40,27 @@ import confusion1 from '../assets/confusion/confusion1.png';
 import confusion2 from '../assets/confusion/confusion2.png';
 import confusion3 from '../assets/confusion/confusion3.png';
 import confusion4 from '../assets/confusion/confusion4.png';
+import yumyum1 from '../assets/yumyum/yumyum1.png';
+import yumyum2 from '../assets/yumyum/yumyum2.png';
+import yumyum3 from '../assets/yumyum/yumyum3.png';
+import yumyum4 from '../assets/yumyum/yumyum4.png';
+import yumyum5 from '../assets/yumyum/yumyum5.png';
+import yumyum6 from '../assets/yumyum/yumyum6.png';
+import yumyum7 from '../assets/yumyum/yumyum7.png';
+import githubFinder1 from '../assets/github_finder/github1.png';
+import githubFinder2 from '../assets/github_finder/github2.png';
+import githubFinder3 from '../assets/github_finder/github3.png';
+import githubFinder4 from '../assets/github_finder/github4.png';
+import githubFinder5 from '../assets/github_finder/github5.png';
+import houseMarket1 from '../assets/housing_market/housing1.png';
+import houseMarket2 from '../assets/housing_market/housing2.png';
+import houseMarket3 from '../assets/housing_market/housing3.png';
+import houseMarket4 from '../assets/housing_market/housing4.png';
+import houseMarket5 from '../assets/housing_market/housing5.png';
+import support1 from '../assets/support_desk/support1.png';
+import support2 from '../assets/support_desk/support2.png';
+import support3 from '../assets/support_desk/support3.png';
+import support4 from '../assets/support_desk/support4.png';
 
 const resumeData = {
   name: 'Charles Yeh',
@@ -160,6 +181,102 @@ const resumeData = {
   projects: [
     {
       tag: 'React',
+      images: [yumyum1, yumyum2, yumyum3, yumyum4, yumyum5, yumyum6, yumyum7],
+      title: 'YumYum Recipe Finder',
+      description:
+        'Ø A Fullstack MERN stack application, that have full login system with json web token protection, using React and tailwind as frontend design and Express, MongoDB as backend. This app also uses Redux and Redux Toolkit for state management and provide full CRUD function for user to create recipes. For recipe search feature, I utilise Spoonacular Api to get the recipe data, user are able to view their created recipes and add searched recipes to their favorite collection.',
+      caption:
+        'A modern recipe finder app for user to find recipe and allow user to create or save their favorite recipe into collection',
+      links: [
+        {
+          type: 'project',
+          link: 'https://charlesyumyum.herokuapp.com/',
+          icon: <WebIcon />,
+        },
+        {
+          type: 'source',
+          link: 'https://github.com/zyeh0001/MERN-yumyum-recipe-app',
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: 'React',
+      images: [
+        githubFinder1,
+        githubFinder2,
+        githubFinder3,
+        githubFinder4,
+        githubFinder5,
+      ],
+      title: 'Github Finder App',
+      description:
+        'Ø This is the second project I build followed from Udemy bootcamp React Front to back. The frontend is developed using React and use Tailwind and daisyUI for styling, data are fetching from the github rest api, and using contextAPI for state management.',
+      caption:
+        'A modern github finder app that allows user to find github users and view their github repositories',
+      links: [
+        {
+          type: 'project',
+          link: 'https://github-finder-app-wheat-five.vercel.app/',
+          icon: <WebIcon />,
+        },
+        {
+          type: 'source',
+          link: 'https://github.com/zyeh0001/github-finder-app-',
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: 'React',
+      images: [
+        houseMarket1,
+        houseMarket2,
+        houseMarket3,
+        houseMarket4,
+        houseMarket5,
+      ],
+      title: 'House Marketplace App',
+      description:
+        'Ø This is the third project that I followed from Udemy React Front to Back. The frontend is build using React and the backend is using firebase version 9 (db, auth, storage) ,It provides full CRUD functionality for users to manage house listing. This app is also fetching the google map api to get the house geolocation, and implement on Leaflet map.',
+      caption:
+        'A modern house marketplace website that allow users to post their house listings for sell or for rent',
+      links: [
+        {
+          type: 'project',
+          link: 'https://house-market-app-rho.vercel.app/',
+          icon: <WebIcon />,
+        },
+        {
+          type: 'source',
+          link: 'https://github.com/zyeh0001/House-Market-app',
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: 'React',
+      images: [support1, support2, support3, support4],
+      title: 'Support Desk App',
+      description:
+        'Ø This is the forth project that I followed from Udemy React Front to Back, It is a fullstack MERN project. Using React as frontend and redux, redux-toolkit for state management. Full authentication system with Json web token protection and full CRUD functionalities for user to manage their ticket to get support. ',
+      caption:
+        'A user friendly support desk app that allow users to post their tickets (needed support for certain products) and view their all support tickets.',
+      links: [
+        {
+          type: 'project',
+          link: 'https://charlessupportdesk.herokuapp.com/',
+          icon: <WebIcon />,
+        },
+        {
+          type: 'source',
+          link: 'https://github.com/zyeh0001/-MERN-supportdesk-app',
+          icon: <GitHubIcon />,
+        },
+      ],
+    },
+    {
+      tag: 'React',
       images: [
         skindicator1,
         skindicator2,
@@ -196,9 +313,9 @@ const resumeData = {
       images: [confusion1, confusion2, confusion3, confusion4],
       title: 'Coursera - Confusion App',
       description:
-        'This project is the demonstration of the Front End deveopment Course in Cousera. ',
+        'This project is the demonstration of the Front End development Course in Coursera. ',
       caption:
-        'A restaurant webste developed using React, Redux and Json server.',
+        'A restaurant website developed using React, Redux and Json server.',
       links: [
         // {
         //   type: 'project',
