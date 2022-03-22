@@ -21,7 +21,7 @@ function Resume() {
           <h6 className='section_title_text'>About Me</h6>
         </Grid>
         <Grid item xs={12}>
-          <Typography varient='body2' className='aboutme_text'>
+          <Typography variant='body1' className='aboutme_text'>
             {resumeData.about}
           </Typography>
         </Grid>
@@ -43,14 +43,14 @@ function Resume() {
                     <TimelineItem>
                       <CustomTimelineSep />
                       <TimelineContent key={experience.title}>
-                        <Typography className='timeline_title'>
+                        <Typography variant='h6' className='timeline_title'>
                           {experience.title}
                         </Typography>
                         <Typography variant='caption' className='timeline_date'>
                           {experience.date}
                         </Typography>
                         <Typography
-                          variant='body2'
+                          variant='body1'
                           className='timeline_description'
                         >
                           {experience.description}
@@ -69,10 +69,13 @@ function Resume() {
                     <TimelineItem>
                       <CustomTimelineSep />
                       <TimelineContent>
-                        <Typography className='timeline_title'>
+                        <Typography variant='h6' className='timeline_title'>
                           {school.name}
                         </Typography>
-                        <Typography variant='h6' className='school_major'>
+                        <Typography
+                          variant='subtitle1'
+                          className='school_major'
+                        >
                           {school.major}
                         </Typography>
                         <Typography variant='caption' className='timeline_date'>

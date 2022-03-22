@@ -125,10 +125,10 @@ function Portfolio() {
           {porjectDialog.images && (
             <Gallery key={porjectDialog.images} images={porjectDialog.images} />
           )}
-          <Typography className='projectDialog_title mt_20 mb_20'>
+          <Typography variant='h5' className='mt_20 mb_20'>
             {porjectDialog.title}
           </Typography>
-          <Typography variant='caption' className='projectDialog_description'>
+          <Typography variant='body1' className='projectDialog_description'>
             {porjectDialog.description}
           </Typography>
         </DialogContent>

@@ -102,13 +102,13 @@ const resumeData = {
         'Ø Establish and maintain a multi-lingual website Taiwan-Japan exchange platform.',
     },
     {
-      title: 'Greata International Corp-FAE ENGINEER',
+      title: 'Greata International Corp-FAE Engineer',
       date: 'Apr2019 - Oct 2019',
       description:
         'Ø Work with Delta Electronics to support the Government intelligent street lamp system in Taoyuan city.\n Ø Assist customers to determined product requirements and provide pre-sales and after-sales technical support including problem solving and training.\nØ Examine failure Microchip IC testing using C programming and oscilloscope',
     },
     {
-      title: 'Workforce Development Agency (WDA)-TEACHING ASSISTANT',
+      title: 'Workforce Development Agency-Teaching Assistant',
       date: 'Aug 2018 - Oct 2020',
       description:
         'Ø Assist students in solving IT related problems for various certificates, including different computer C-level Technician certificates.',
