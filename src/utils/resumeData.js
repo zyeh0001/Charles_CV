@@ -93,7 +93,7 @@ const resumeData = {
     },
   },
   about:
-    'I’m an information technology master graduate from Monash University, with over 6 years of experience in operations, web development, project management, data analysis skills. Besides with a previous 1 year of experience as an FAE engineer. I have received training in providing effective solutions to customers, and developed strong interpersonal and oral communication skills. \n\nI have excellent problem-solving skills and transform complex analysis into clear and practical steps, providing meaningful and relevant insights. I am also adept at designing, developing, analyzing, and reviewing reports, metrics, and data sets to support performance results. \n\nI would like to apply my knowledge about Information technology to help companies to improve their performance. My specialty includes knowledge about  React js, AWS services, Javascript, CSS, HTML, Java, Python, Android studio, SQL, R, and Tableau. I am also a go-getter and quick learner that can help me face challenges during my work. I am now seeking to gain full-time employment as a web developer or any IT-related opportunities in different industries.',
+    'I’m an information technology master graduate from Monash University, with over 6 years of experience in operations, web development, project management, data analysis skills. Besides with a previous 1 year of experience as an FAE engineer. I have received training in providing effective solutions to customers, and developed strong interpersonal and oral communication skills. \n\nI have excellent problem-solving skills and transform complex analysis into clear and practical steps, providing meaningful and relevant insights. I am also adept at designing, developing, analyzing, and reviewing reports, metrics, and data sets to support performance results. \n\nI would like to apply my knowledge about Information technology to contribute values to companies. My specialty includes knowledge about  React js, Express, AWS services, Javascript, CSS, HTML, Java, Python, Android studio, SQL, R, and Tableau. I am also a go-getter and quick learner that can help me face challenges during my work. I am now seeking to gain full-time employment as a web developer or any IT-related position in different industries.',
   work: [
     {
       title: 'Freelance Web Developer',
@@ -111,7 +111,7 @@ const resumeData = {
       title: 'Workforce Development Agency-Teaching Assistant',
       date: 'Aug 2018 - Oct 2020',
       description:
-        'Ø Assist students in solving IT related problems for various certificates, including different computer C-level Technician certificates.',
+        'Ø Assist disable students through online courses in solving IT related problems for various certificates, including different computer C-level Technician certificates.',
     },
   ],
   education: [
